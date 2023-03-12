@@ -1,0 +1,36 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 500px;
+}
+
+.board {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    /* border: 2px solid;
+    border-color: black; */
+}
+
+.board div {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .board div:hover {
+    background-color: #bfbfbf
+} */
+
+.board div h1 {
+    font-size: 50px;
+}
+
